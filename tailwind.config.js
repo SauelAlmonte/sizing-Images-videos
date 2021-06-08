@@ -5,12 +5,6 @@ module.exports = {
   presets: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    aspectRatio: {
-      1: '1',
-      2: '2',
-      3: '3',
-      4: '4',
-    }
     screens: {
       sm: '640px',
       md: '768px',
@@ -804,6 +798,12 @@ module.exports = {
       40: '40',
       50: '50',
     },
+    aspectRatio: {
+      1: '1',
+      2: '2',
+      3: '3',
+      4: '4',
+    }
   },
   variantOrder: [
     'first',
@@ -822,7 +822,6 @@ module.exports = {
     'disabled',
   ],
   variants: {
-    aspectRatio: ['responsive', 'hover']
     accessibility: ['responsive', 'focus-within', 'focus'],
     alignContent: ['responsive'],
     alignItems: ['responsive'],
@@ -965,6 +964,7 @@ module.exports = {
     width: ['responsive'],
     wordBreak: ['responsive'],
     zIndex: ['responsive', 'focus-within', 'focus'],
+    aspectRatio: ['responsive', 'hover']
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),

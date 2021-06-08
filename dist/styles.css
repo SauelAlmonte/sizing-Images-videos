@@ -585,6 +585,142 @@ video {
   }
 }
 
+.aspect-w-1,
+.aspect-w-2,
+.aspect-w-3,
+.aspect-w-4 {
+  position: relative;
+  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+}
+
+.aspect-w-1 > *,
+.aspect-w-2 > *,
+.aspect-w-3 > *,
+.aspect-w-4 > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.aspect-none {
+  position: static;
+  padding-bottom: 0;
+}
+
+.aspect-none > * {
+  position: static;
+  height: auto;
+  width: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+}
+
+.aspect-w-1 {
+  --tw-aspect-w: 1;
+}
+
+.aspect-w-2 {
+  --tw-aspect-w: 2;
+}
+
+.aspect-w-3 {
+  --tw-aspect-w: 3;
+}
+
+.aspect-w-4 {
+  --tw-aspect-w: 4;
+}
+
+.aspect-h-1 {
+  --tw-aspect-h: 1;
+}
+
+.aspect-h-2 {
+  --tw-aspect-h: 2;
+}
+
+.aspect-h-3 {
+  --tw-aspect-h: 3;
+}
+
+.aspect-h-4 {
+  --tw-aspect-h: 4;
+}
+
+.hover\:aspect-w-1:hover,
+.hover\:aspect-w-2:hover,
+.hover\:aspect-w-3:hover,
+.hover\:aspect-w-4:hover {
+  position: relative;
+  padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+}
+
+.hover\:aspect-w-1:hover > *,
+.hover\:aspect-w-2:hover > *,
+.hover\:aspect-w-3:hover > *,
+.hover\:aspect-w-4:hover > * {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hover\:aspect-none:hover {
+  position: static;
+  padding-bottom: 0;
+}
+
+.hover\:aspect-none:hover > * {
+  position: static;
+  height: auto;
+  width: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+}
+
+.hover\:aspect-w-1:hover {
+  --tw-aspect-w: 1;
+}
+
+.hover\:aspect-w-2:hover {
+  --tw-aspect-w: 2;
+}
+
+.hover\:aspect-w-3:hover {
+  --tw-aspect-w: 3;
+}
+
+.hover\:aspect-w-4:hover {
+  --tw-aspect-w: 4;
+}
+
+.hover\:aspect-h-1:hover {
+  --tw-aspect-h: 1;
+}
+
+.hover\:aspect-h-2:hover {
+  --tw-aspect-h: 2;
+}
+
+.hover\:aspect-h-3:hover {
+  --tw-aspect-h: 3;
+}
+
+.hover\:aspect-h-4:hover {
+  --tw-aspect-h: 4;
+}
+
 /**
 Custom CSS
 
@@ -31871,6 +32007,142 @@ Custom CSS
     }
   }
 
+  .sm\:aspect-w-1,
+.sm\:aspect-w-2,
+.sm\:aspect-w-3,
+.sm\:aspect-w-4 {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .sm\:aspect-w-1 > *,
+.sm\:aspect-w-2 > *,
+.sm\:aspect-w-3 > *,
+.sm\:aspect-w-4 > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .sm\:aspect-none {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .sm\:aspect-none > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .sm\:aspect-w-1 {
+    --tw-aspect-w: 1;
+  }
+
+  .sm\:aspect-w-2 {
+    --tw-aspect-w: 2;
+  }
+
+  .sm\:aspect-w-3 {
+    --tw-aspect-w: 3;
+  }
+
+  .sm\:aspect-w-4 {
+    --tw-aspect-w: 4;
+  }
+
+  .sm\:aspect-h-1 {
+    --tw-aspect-h: 1;
+  }
+
+  .sm\:aspect-h-2 {
+    --tw-aspect-h: 2;
+  }
+
+  .sm\:aspect-h-3 {
+    --tw-aspect-h: 3;
+  }
+
+  .sm\:aspect-h-4 {
+    --tw-aspect-h: 4;
+  }
+
+  .sm\:hover\:aspect-w-1:hover,
+.sm\:hover\:aspect-w-2:hover,
+.sm\:hover\:aspect-w-3:hover,
+.sm\:hover\:aspect-w-4:hover {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .sm\:hover\:aspect-w-1:hover > *,
+.sm\:hover\:aspect-w-2:hover > *,
+.sm\:hover\:aspect-w-3:hover > *,
+.sm\:hover\:aspect-w-4:hover > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .sm\:hover\:aspect-none:hover {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .sm\:hover\:aspect-none:hover > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .sm\:hover\:aspect-w-1:hover {
+    --tw-aspect-w: 1;
+  }
+
+  .sm\:hover\:aspect-w-2:hover {
+    --tw-aspect-w: 2;
+  }
+
+  .sm\:hover\:aspect-w-3:hover {
+    --tw-aspect-w: 3;
+  }
+
+  .sm\:hover\:aspect-w-4:hover {
+    --tw-aspect-w: 4;
+  }
+
+  .sm\:hover\:aspect-h-1:hover {
+    --tw-aspect-h: 1;
+  }
+
+  .sm\:hover\:aspect-h-2:hover {
+    --tw-aspect-h: 2;
+  }
+
+  .sm\:hover\:aspect-h-3:hover {
+    --tw-aspect-h: 3;
+  }
+
+  .sm\:hover\:aspect-h-4:hover {
+    --tw-aspect-h: 4;
+  }
+
   .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -62980,6 +63252,142 @@ Custom CSS
     .md\:container {
       max-width: 1536px;
     }
+  }
+
+  .md\:aspect-w-1,
+.md\:aspect-w-2,
+.md\:aspect-w-3,
+.md\:aspect-w-4 {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .md\:aspect-w-1 > *,
+.md\:aspect-w-2 > *,
+.md\:aspect-w-3 > *,
+.md\:aspect-w-4 > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .md\:aspect-none {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .md\:aspect-none > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .md\:aspect-w-1 {
+    --tw-aspect-w: 1;
+  }
+
+  .md\:aspect-w-2 {
+    --tw-aspect-w: 2;
+  }
+
+  .md\:aspect-w-3 {
+    --tw-aspect-w: 3;
+  }
+
+  .md\:aspect-w-4 {
+    --tw-aspect-w: 4;
+  }
+
+  .md\:aspect-h-1 {
+    --tw-aspect-h: 1;
+  }
+
+  .md\:aspect-h-2 {
+    --tw-aspect-h: 2;
+  }
+
+  .md\:aspect-h-3 {
+    --tw-aspect-h: 3;
+  }
+
+  .md\:aspect-h-4 {
+    --tw-aspect-h: 4;
+  }
+
+  .md\:hover\:aspect-w-1:hover,
+.md\:hover\:aspect-w-2:hover,
+.md\:hover\:aspect-w-3:hover,
+.md\:hover\:aspect-w-4:hover {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .md\:hover\:aspect-w-1:hover > *,
+.md\:hover\:aspect-w-2:hover > *,
+.md\:hover\:aspect-w-3:hover > *,
+.md\:hover\:aspect-w-4:hover > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .md\:hover\:aspect-none:hover {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .md\:hover\:aspect-none:hover > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .md\:hover\:aspect-w-1:hover {
+    --tw-aspect-w: 1;
+  }
+
+  .md\:hover\:aspect-w-2:hover {
+    --tw-aspect-w: 2;
+  }
+
+  .md\:hover\:aspect-w-3:hover {
+    --tw-aspect-w: 3;
+  }
+
+  .md\:hover\:aspect-w-4:hover {
+    --tw-aspect-w: 4;
+  }
+
+  .md\:hover\:aspect-h-1:hover {
+    --tw-aspect-h: 1;
+  }
+
+  .md\:hover\:aspect-h-2:hover {
+    --tw-aspect-h: 2;
+  }
+
+  .md\:hover\:aspect-h-3:hover {
+    --tw-aspect-h: 3;
+  }
+
+  .md\:hover\:aspect-h-4:hover {
+    --tw-aspect-h: 4;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -94093,6 +94501,142 @@ Custom CSS
     }
   }
 
+  .lg\:aspect-w-1,
+.lg\:aspect-w-2,
+.lg\:aspect-w-3,
+.lg\:aspect-w-4 {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .lg\:aspect-w-1 > *,
+.lg\:aspect-w-2 > *,
+.lg\:aspect-w-3 > *,
+.lg\:aspect-w-4 > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .lg\:aspect-none {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .lg\:aspect-none > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .lg\:aspect-w-1 {
+    --tw-aspect-w: 1;
+  }
+
+  .lg\:aspect-w-2 {
+    --tw-aspect-w: 2;
+  }
+
+  .lg\:aspect-w-3 {
+    --tw-aspect-w: 3;
+  }
+
+  .lg\:aspect-w-4 {
+    --tw-aspect-w: 4;
+  }
+
+  .lg\:aspect-h-1 {
+    --tw-aspect-h: 1;
+  }
+
+  .lg\:aspect-h-2 {
+    --tw-aspect-h: 2;
+  }
+
+  .lg\:aspect-h-3 {
+    --tw-aspect-h: 3;
+  }
+
+  .lg\:aspect-h-4 {
+    --tw-aspect-h: 4;
+  }
+
+  .lg\:hover\:aspect-w-1:hover,
+.lg\:hover\:aspect-w-2:hover,
+.lg\:hover\:aspect-w-3:hover,
+.lg\:hover\:aspect-w-4:hover {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .lg\:hover\:aspect-w-1:hover > *,
+.lg\:hover\:aspect-w-2:hover > *,
+.lg\:hover\:aspect-w-3:hover > *,
+.lg\:hover\:aspect-w-4:hover > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .lg\:hover\:aspect-none:hover {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .lg\:hover\:aspect-none:hover > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .lg\:hover\:aspect-w-1:hover {
+    --tw-aspect-w: 1;
+  }
+
+  .lg\:hover\:aspect-w-2:hover {
+    --tw-aspect-w: 2;
+  }
+
+  .lg\:hover\:aspect-w-3:hover {
+    --tw-aspect-w: 3;
+  }
+
+  .lg\:hover\:aspect-w-4:hover {
+    --tw-aspect-w: 4;
+  }
+
+  .lg\:hover\:aspect-h-1:hover {
+    --tw-aspect-h: 1;
+  }
+
+  .lg\:hover\:aspect-h-2:hover {
+    --tw-aspect-h: 2;
+  }
+
+  .lg\:hover\:aspect-h-3:hover {
+    --tw-aspect-h: 3;
+  }
+
+  .lg\:hover\:aspect-h-4:hover {
+    --tw-aspect-h: 4;
+  }
+
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -125204,6 +125748,142 @@ Custom CSS
     }
   }
 
+  .xl\:aspect-w-1,
+.xl\:aspect-w-2,
+.xl\:aspect-w-3,
+.xl\:aspect-w-4 {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .xl\:aspect-w-1 > *,
+.xl\:aspect-w-2 > *,
+.xl\:aspect-w-3 > *,
+.xl\:aspect-w-4 > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .xl\:aspect-none {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .xl\:aspect-none > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .xl\:aspect-w-1 {
+    --tw-aspect-w: 1;
+  }
+
+  .xl\:aspect-w-2 {
+    --tw-aspect-w: 2;
+  }
+
+  .xl\:aspect-w-3 {
+    --tw-aspect-w: 3;
+  }
+
+  .xl\:aspect-w-4 {
+    --tw-aspect-w: 4;
+  }
+
+  .xl\:aspect-h-1 {
+    --tw-aspect-h: 1;
+  }
+
+  .xl\:aspect-h-2 {
+    --tw-aspect-h: 2;
+  }
+
+  .xl\:aspect-h-3 {
+    --tw-aspect-h: 3;
+  }
+
+  .xl\:aspect-h-4 {
+    --tw-aspect-h: 4;
+  }
+
+  .xl\:hover\:aspect-w-1:hover,
+.xl\:hover\:aspect-w-2:hover,
+.xl\:hover\:aspect-w-3:hover,
+.xl\:hover\:aspect-w-4:hover {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .xl\:hover\:aspect-w-1:hover > *,
+.xl\:hover\:aspect-w-2:hover > *,
+.xl\:hover\:aspect-w-3:hover > *,
+.xl\:hover\:aspect-w-4:hover > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .xl\:hover\:aspect-none:hover {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .xl\:hover\:aspect-none:hover > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .xl\:hover\:aspect-w-1:hover {
+    --tw-aspect-w: 1;
+  }
+
+  .xl\:hover\:aspect-w-2:hover {
+    --tw-aspect-w: 2;
+  }
+
+  .xl\:hover\:aspect-w-3:hover {
+    --tw-aspect-w: 3;
+  }
+
+  .xl\:hover\:aspect-w-4:hover {
+    --tw-aspect-w: 4;
+  }
+
+  .xl\:hover\:aspect-h-1:hover {
+    --tw-aspect-h: 1;
+  }
+
+  .xl\:hover\:aspect-h-2:hover {
+    --tw-aspect-h: 2;
+  }
+
+  .xl\:hover\:aspect-h-3:hover {
+    --tw-aspect-h: 3;
+  }
+
+  .xl\:hover\:aspect-h-4:hover {
+    --tw-aspect-h: 4;
+  }
+
   .xl\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-y-reverse: 0;
     margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
@@ -156313,6 +156993,142 @@ Custom CSS
     .\32xl\:container {
       max-width: 1536px;
     }
+  }
+
+  .\32xl\:aspect-w-1,
+.\32xl\:aspect-w-2,
+.\32xl\:aspect-w-3,
+.\32xl\:aspect-w-4 {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .\32xl\:aspect-w-1 > *,
+.\32xl\:aspect-w-2 > *,
+.\32xl\:aspect-w-3 > *,
+.\32xl\:aspect-w-4 > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .\32xl\:aspect-none {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .\32xl\:aspect-none > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .\32xl\:aspect-w-1 {
+    --tw-aspect-w: 1;
+  }
+
+  .\32xl\:aspect-w-2 {
+    --tw-aspect-w: 2;
+  }
+
+  .\32xl\:aspect-w-3 {
+    --tw-aspect-w: 3;
+  }
+
+  .\32xl\:aspect-w-4 {
+    --tw-aspect-w: 4;
+  }
+
+  .\32xl\:aspect-h-1 {
+    --tw-aspect-h: 1;
+  }
+
+  .\32xl\:aspect-h-2 {
+    --tw-aspect-h: 2;
+  }
+
+  .\32xl\:aspect-h-3 {
+    --tw-aspect-h: 3;
+  }
+
+  .\32xl\:aspect-h-4 {
+    --tw-aspect-h: 4;
+  }
+
+  .\32xl\:hover\:aspect-w-1:hover,
+.\32xl\:hover\:aspect-w-2:hover,
+.\32xl\:hover\:aspect-w-3:hover,
+.\32xl\:hover\:aspect-w-4:hover {
+    position: relative;
+    padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  }
+
+  .\32xl\:hover\:aspect-w-1:hover > *,
+.\32xl\:hover\:aspect-w-2:hover > *,
+.\32xl\:hover\:aspect-w-3:hover > *,
+.\32xl\:hover\:aspect-w-4:hover > * {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .\32xl\:hover\:aspect-none:hover {
+    position: static;
+    padding-bottom: 0;
+  }
+
+  .\32xl\:hover\:aspect-none:hover > * {
+    position: static;
+    height: auto;
+    width: auto;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+  }
+
+  .\32xl\:hover\:aspect-w-1:hover {
+    --tw-aspect-w: 1;
+  }
+
+  .\32xl\:hover\:aspect-w-2:hover {
+    --tw-aspect-w: 2;
+  }
+
+  .\32xl\:hover\:aspect-w-3:hover {
+    --tw-aspect-w: 3;
+  }
+
+  .\32xl\:hover\:aspect-w-4:hover {
+    --tw-aspect-w: 4;
+  }
+
+  .\32xl\:hover\:aspect-h-1:hover {
+    --tw-aspect-h: 1;
+  }
+
+  .\32xl\:hover\:aspect-h-2:hover {
+    --tw-aspect-h: 2;
+  }
+
+  .\32xl\:hover\:aspect-h-3:hover {
+    --tw-aspect-h: 3;
+  }
+
+  .\32xl\:hover\:aspect-h-4:hover {
+    --tw-aspect-h: 4;
   }
 
   .\32xl\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
